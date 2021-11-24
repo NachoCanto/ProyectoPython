@@ -1,0 +1,16 @@
+print("Bienvenido al programa favorito de los profesores")
+primero = input("Quien es tu profesor favorito: \n ")
+print(f"{primero}")
+segundo = input("Quien es tu segundo profesor favorito: \n ")
+print(f"{segundo}")
+tercero = input("Quien es tu tercer profesor favorito: \n ")
+print(f"{tercero}")
+cuarto = input("Quien es tu cuarto profesor favorito: \n ")
+print(f"{cuarto}")
+lista_profesores=[primero,segundo,tercero,cuarto]
+print(f"{lista_profesores}")
+print(f"{sorted(lista_profesores)}")
+print(f"{sorted(lista_profesores ,reverse=True)}")
+
+print(f"Tus 2 mejores profesores son {lista_profesores[0,1]}")
+print(f"Tus siguientes 2 profesores favoritos son {lista_profesores[2,3]}")
