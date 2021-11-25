@@ -30,3 +30,4 @@ for i in range(1,int(ecuacion)+1):
         print(f"\nla solución a la ecuación {a}x²+{b}x+{c}")
     print(f"\tsolucion1 =  {n1}")
     print(f"\tsolucion1 =  {n2}")
+    print("\n\n\tMuchas gracias por usar esta App")
