@@ -12,8 +12,8 @@ while activar :
             pares.append(i)
         else:
             impares.append(i)
-    print(f'\n List of even numbers : {pares}')
-    print(f'\n List of odds numbers : {impares}')
+        print(f'\n List of even numbers : {pares}')
+        print(f'\n List of odds numbers : {impares}')
     continuar_programa = input('\n Do you want to continue the program ? (y/n) : ').lower().strip()
     if continuar_programa.startswith('n'):
         activar = False
